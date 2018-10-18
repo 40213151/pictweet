@@ -25,6 +25,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'devise'
 gem 'carrierwave'
 gem 'mini_magick'
 # Use Unicorn as the app server
@@ -46,7 +47,6 @@ group :development, :test do
   gem 'compass-rails','~> 2.0'
   gem "sprockets", ">= 2.12.5"
   gem 'kaminari'
-  gem 'devise'
 end
 
 group :production do
