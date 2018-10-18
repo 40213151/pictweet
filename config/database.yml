@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: pictweet2_production
-  username: pictweet2
+  username: root
   password: <%= ENV['PICTWEET2_DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
